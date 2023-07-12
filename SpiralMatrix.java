@@ -4,21 +4,28 @@ public class SpiralMatrix {
         int Top =0, Right = column-1, Bottom =row-1, Left=0;
 
         while(Left<=Right && Top<=Bottom){
+            // Printing topmost row
             for(int i=Top; i<=Right; i++){
                 System.out.print(arr[Top][i]+" ");
             }
             
             Top++;
+
+            //Printing rightmost column
             for(int i= Top; i<=Bottom;i++){
                 System.out.print(arr[i][Right]+" ");
             }
            
             Right--;
+
+            //Printing bottom-most row
             for(int i=Right; i>=Left; i--){
                 System.out.print(arr[Bottom][i]+" ");
             }
            
             Bottom--;
+
+            //Printing bottom to top
             for(int i =Bottom; i>=Top; i--){
                 System.out.print(arr[i][Left]+" ");
             }
