@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MaxSubArrayOfSizeK",
+            "request": "launch",
+            "mainClass": "MaxSubArrayOfSizeK",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListDemo",
+            "request": "launch",
+            "mainClass": "ArrayListDemo",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "AverageTemperature",
+            "request": "launch",
+            "mainClass": "AverageTemperature",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "BestScore",
+            "request": "launch",
+            "mainClass": "BestScore",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeToBuyAndSellStock",
+            "request": "launch",
+            "mainClass": "BestTimeToBuyAndSellStock",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "ContainsDuplicate",
+            "request": "launch",
+            "mainClass": "ContainsDuplicate",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "DiagonalSum",
+            "request": "launch",
+            "mainClass": "DiagonalSum",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "IsArrayUnique",
+            "request": "launch",
+            "mainClass": "IsArrayUnique",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "MaxSumOfDistinctSubArray",
+            "request": "launch",
+            "mainClass": "MaxSumOfDistinctSubArray",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "MissingNumber",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "NumberOf1Bits",
+            "request": "launch",
+            "mainClass": "NumberOf1Bits",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "PrintingPair",
+            "request": "launch",
+            "mainClass": "PrintingPair",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesFromSortedArray",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesFromSortedArray",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "Rotate2DArray",
+            "request": "launch",
+            "mainClass": "Rotate2DArray",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "SpiralMatrix",
+            "request": "launch",
+            "mainClass": "SpiralMatrix",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "TwoSum",
+            "request": "launch",
+            "mainClass": "TwoSum",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "CodingPractice_577ffda0"
+        }
+    ]
+}
