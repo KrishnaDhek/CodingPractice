@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayList",
+            "request": "launch",
+            "mainClass": "ArrayList",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "MajorityElement",
             "request": "launch",
             "mainClass": "MajorityElement",

@@ -36,6 +36,11 @@ public class ArrayListDemo {
        
         System.out.println(list);
 
+        Iterator<Integer> itr = list.iterator();
+        while(itr.hasNext()){
+          System.out.println(" Elements are: "+itr.next());
+        }
+
         
     }
     
