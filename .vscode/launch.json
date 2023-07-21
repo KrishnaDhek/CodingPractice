@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FruitsIntoBasket",
+            "request": "launch",
+            "mainClass": "FruitsIntoBasket",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "LongestSubStringWithoutRepeatingChar",
             "request": "launch",
             "mainClass": "LongestSubStringWithoutRepeatingChar",
