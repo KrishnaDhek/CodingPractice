@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SmallestSubArray",
+            "request": "launch",
+            "mainClass": "SmallestSubArray",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "SinglyLinkedList",
+            "request": "launch",
+            "mainClass": "SinglyLinkedList",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "ArrayList",
             "request": "launch",
             "mainClass": "ArrayList",
