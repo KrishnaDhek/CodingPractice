@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestSubStringWithoutRepeatingChar",
+            "request": "launch",
+            "mainClass": "LongestSubStringWithoutRepeatingChar",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "LongestSubStringWithKDIstinctChar",
             "request": "launch",
             "mainClass": "LongestSubStringWithKDIstinctChar",
