@@ -13,6 +13,10 @@ public class Main {
     sll.insertInLinkedList(9, 6);
     sll.traversLinkedList();
     System.out.println(sll.searchNode(6));
+    sll.deletionOfNode(3);
+    sll.traversLinkedList();
+    sll.deleteSinglyLinkedList();
+    sll.traversLinkedList();
         
     }
     
