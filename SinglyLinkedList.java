@@ -67,4 +67,16 @@ public class SinglyLinkedList {
         System.out.println(" ");
        
     }
+
+    boolean searchNode(int nodeValue){
+        Node temp = head;
+        while(temp.next!=null){
+            if(temp.value == nodeValue){
+                
+                return true;
+            }
+             temp = temp.next;
+        }
+        return false;
+    }
 }
