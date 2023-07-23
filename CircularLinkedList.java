@@ -81,7 +81,7 @@ public class CircularLinkedList {
         boolean searchNode(int nodeValue){
             Node temp = head;
 
-            while(temp!=head){
+            while(temp.next!=head){
                 if(temp.value==nodeValue){
                     return true;
                 }
