@@ -43,9 +43,8 @@ public class Main {
     // System.out.println(dll.head.next.next.value);
     // System.out.println(dll.head.next.next.next.value);
     dll.traversalInDoublyLinkedList();
-    System.out.println(dll.searchInDoublyLinkedList(5));
-    dll.deleteFromDoublyLinkedList(2);
-    dll.traversalInDoublyLinkedList();
+    System.out.println(dll.searchInDoublyLinkedList(2));
+   
     dll.deleteDoublyList();
     dll.traversalInDoublyLinkedList();
     

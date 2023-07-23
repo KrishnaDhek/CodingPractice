@@ -131,6 +131,12 @@ public class DoublyLinkedList {
      }
       //deleting entire DoublyLinkedList
       public void deleteDoublyList(){
+        DoublyNode temp = head;
+        while(temp!=null){
+            temp.previous =null;
+            temp = temp.next;    
+        }
+
         head =null;
         tail =null;
         size--;
