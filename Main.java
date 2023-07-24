@@ -45,9 +45,9 @@ public class Main {
     // dll.traversalInDoublyLinkedList();
     // System.out.println(dll.searchInDoublyLinkedList(2));
    
-    // // dll.deleteDoublyList();
+    //  dll.deleteDoublyList();
     // dll.traversalInDoublyLinkedList();
-    // dll.reverseDoublylinkedList();
+    // // dll.reverseDoublylinkedList();
     
     CircularDoublyLinkedList cdll = new CircularDoublyLinkedList();
     cdll.createCircularDoublyLinkedList(1);
@@ -63,9 +63,11 @@ public class Main {
     // cdll.reverseTraversalOfCircularDoublyLinkedList();
     
     System.out.println(cdll.searchInCircularDoublyLinkedList(30));
-    cdll.deleteElementFromCircularDoublyLinkedList(3);
-    cdll.traveralCircularDoublyLinkedList();
-     cdll.deleteElementFromCircularDoublyLinkedList(1);
+    // cdll.deleteElementFromCircularDoublyLinkedList(3);
+    // cdll.traveralCircularDoublyLinkedList();
+    //  cdll.deleteElementFromCircularDoublyLinkedList(1);
+    // cdll.traveralCircularDoublyLinkedList();
+    cdll.deleteCircularDoublyList();
     cdll.traveralCircularDoublyLinkedList();
 
 
