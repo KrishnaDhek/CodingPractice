@@ -76,11 +76,12 @@ public void RemoveDuplicatesFromLinkedList( ){
         temp = temp.next;
      }
      
+     
 }
 
 public static void main(String[] args) {
     LinkedList ll = new LinkedList();
-   
+   ll.insertInLinkedList(1, 0);
     ll.insertInLinkedList(1,1);
     ll.insertInLinkedList(2,2);
     ll.insertInLinkedList(2,3);
