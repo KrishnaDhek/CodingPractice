@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Mainstack",
+            "request": "launch",
+            "mainClass": "Mainstack",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "LinkedList",
             "request": "launch",
             "mainClass": "LinkedList",

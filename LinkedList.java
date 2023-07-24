@@ -66,7 +66,7 @@ public void traversLinkedList(){
     System.out.println(" ");
      
    
-}
+}//remove duplicates
 public void RemoveDuplicatesFromLinkedList( ){
     LinkedNode temp =head;
      while(temp.next!=null){
