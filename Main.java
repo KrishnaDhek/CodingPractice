@@ -45,8 +45,9 @@ public class Main {
     dll.traversalInDoublyLinkedList();
     System.out.println(dll.searchInDoublyLinkedList(2));
    
-    dll.deleteDoublyList();
+    // dll.deleteDoublyList();
     dll.traversalInDoublyLinkedList();
+    dll.reverseDoublylinkedList();
     
     
     

@@ -82,6 +82,26 @@ public class DoublyLinkedList {
         }
         return false;
     }
+    //reverse traversal in doublylinkedlist
+     public void reverseDoublylinkedList(){
+        if(head==null){
+            System.out.println("Doubly list does not exists!!");
+        }
+        else{
+            DoublyNode temp = tail;
+            for(int i =0; i<size;i++){
+                System.out.print(temp.value); 
+                if(i<size-1){
+                    System.out.print("<-");
+            }
+            temp = temp.previous;
+            }
+            System.out.println("\n");
+           
+        }
+        
+
+     }
 
     //deleting elemnts from doubly linkedlist
     public void deleteFromDoublyLinkedList(int location){
@@ -129,6 +149,7 @@ public class DoublyLinkedList {
          }
 
      }
+     
       //deleting entire DoublyLinkedList
       public void deleteDoublyList(){
         DoublyNode temp = head;
