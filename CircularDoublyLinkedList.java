@@ -103,4 +103,54 @@ public class CircularDoublyLinkedList {
        return false;
     }
 
+    //deleting an element from circulardoublylinkedlist
+    public void deleteElementFromCircularDoublyLinkedList(int location){
+        if(head==null){
+            System.out.println("Nothing to delete, circular doubly linked list is emnpty");
+            return;
+        }
+        else if(location==0){
+            if(size==1){
+                head.next =null;
+                head.previous =null;
+                head=null;
+                tail=null;
+                size--;
+            }
+            else{
+                 head = head.next;
+                 head.previous=tail;
+                 tail.next = head;
+                 size--;
+            }
+
+        }
+        else if(location>=size){
+            if(size==1){
+                head.next=null;
+                head.previous=null;
+                head=null;
+                tail=null;
+            }
+            else{
+                tail = tail.previous;
+                tail.next = head;
+                head.previous =tail;
+                size--;
+            }
+
+        }
+        else{
+            DoublyNode temp =head;
+            int index =0;
+            while(index<location-1){
+                temp= temp.next;
+                index++;
+            }
+            temp.next = temp.next.next;
+            temp.next.previous = temp;
+            size--;
+        }
+    }
+
 }
