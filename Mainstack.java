@@ -8,6 +8,7 @@ public class Mainstack {
        s.pushInStack(4);
        s.pushInStack(5);
        s.pushInStack(6);
+       s.pushInStack(7);
        System.out.println("Poped element is :" +s.popFromStack());
        System.out.println("Peek element is :"+s.peekOfStack());
        s.deleteStack();

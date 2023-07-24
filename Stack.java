@@ -39,14 +39,15 @@ public class Stack {
 
     public int popFromStack(){
         if(isEmpty()){
-            System.out.println("Stack is empty!");
+            System.out.println("Stack is empty !");
+            return -1;
         }
         else{
             int topValue = arrStack[topOfStack];
             topOfStack--;
             return topValue;
         }
-        return -1;
+        
     }
     public int peekOfStack(){
         if(isEmpty()){
