@@ -1,22 +1,33 @@
 public class Main {
     public static void main(String[] args) {
     
-    SinglyLinkedList sll = new SinglyLinkedList();
-    sll.createSinglyLinkedList(2);
-    System.out.println(sll.head.value);
-    sll.insertInLinkedList(1, 0);
-    sll.insertInLinkedList(3,1 );
-    sll.insertInLinkedList(4,2);
-    sll.insertInLinkedList(5,3);
-    sll.insertInLinkedList(6, 4);
-    sll.insertInLinkedList(8, 5);
-    sll.insertInLinkedList(9, 6);
-    sll.traversLinkedList();
-    System.out.println(sll.searchNode(6));
-    // sll.deletionOfNode(3);
+    // SinglyLinkedList sll = new SinglyLinkedList();
+    // sll.createSinglyLinkedList(2);
+    // System.out.println(sll.head.value);
+    // sll.insertInLinkedList(1, 0);
+    // sll.insertInLinkedList(3,1 );
+    // sll.insertInLinkedList(4,2);
+    // sll.insertInLinkedList(5,3);
+    // sll.insertInLinkedList(6, 4);
+    // sll.insertInLinkedList(8, 5);
+    // sll.insertInLinkedList(9, 6);
     // sll.traversLinkedList();
-    // sll.deleteSinglyLinkedList();
-    sll.traversLinkedList();
+    // System.out.println(sll.searchNode(6));
+    // // sll.deletionOfNode(3);
+    // // sll.traversLinkedList();
+    // // sll.deleteSinglyLinkedList();
+    // sll.traversLinkedList();
+    StackUsingLinkedList s = new StackUsingLinkedList();
+    System.out.println(s.isEmpty());
+    s.Push(1);
+    s.Push(2);
+    s.Push(3);
+    s.Push(4);
+    System.out.println(s.isEmpty());
+    s.peek();
+    s.pop();
+    s.peek();
+    s.delete();
 
     // CircularLinkedList csll = new CircularLinkedList();
     // csll.createCircularSinglyLinkedList(1);
