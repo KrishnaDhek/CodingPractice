@@ -32,23 +32,36 @@ public class Main {
     // csll.deleteLinkedList();
     // csll.traveralCircularSinglyList();
 
-    DoublyLinkedList dll = new DoublyLinkedList();
-    dll.insertInDoublyLinkedList(1, 0);
-    // System.out.println(dll.head.value);
-    dll.insertInDoublyLinkedList(2, 1);
-    dll.insertInDoublyLinkedList(3, 2);
-    dll.insertInDoublyLinkedList(4, 3);
-    // System.out.println(dll.head.value);
-    // System.out.println(dll.head.next.value);
-    // System.out.println(dll.head.next.next.value);
-    // System.out.println(dll.head.next.next.next.value);
-    dll.traversalInDoublyLinkedList();
-    System.out.println(dll.searchInDoublyLinkedList(2));
+    // DoublyLinkedList dll = new DoublyLinkedList();
+    // dll.insertInDoublyLinkedList(1, 0);
+    // // System.out.println(dll.head.value);
+    // dll.insertInDoublyLinkedList(2, 1);
+    // dll.insertInDoublyLinkedList(3, 2);
+    // dll.insertInDoublyLinkedList(4, 3);
+    // // System.out.println(dll.head.value);
+    // // System.out.println(dll.head.next.value);
+    // // System.out.println(dll.head.next.next.value);
+    // // System.out.println(dll.head.next.next.next.value);
+    // dll.traversalInDoublyLinkedList();
+    // System.out.println(dll.searchInDoublyLinkedList(2));
    
-    // dll.deleteDoublyList();
-    dll.traversalInDoublyLinkedList();
-    dll.reverseDoublylinkedList();
+    // // dll.deleteDoublyList();
+    // dll.traversalInDoublyLinkedList();
+    // dll.reverseDoublylinkedList();
     
+    CircularDoublyLinkedList cdll = new CircularDoublyLinkedList();
+    cdll.createCircularDoublyLinkedList(1);
+    // System.out.println(cdll.head.value);
+    cdll.insertInCircularDoublyLinkedList(2, 0);
+    cdll.insertInCircularDoublyLinkedList(3, 1);
+    cdll.insertInCircularDoublyLinkedList(4, 2);
+    // System.out.println(cdll.head.value);
+    // System.out.println(cdll.head.next.value);
+    // System.out.println(cdll.head.next.next.value);
+    // System.out.println(cdll.head.next.next.next.value);
+    cdll.traveralCircularDoublyLinkedList();
+    
+
     
     
 
