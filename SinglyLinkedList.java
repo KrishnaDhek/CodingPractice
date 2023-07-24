@@ -24,6 +24,7 @@ public class SinglyLinkedList {
         return;
        }
        else if(location==0){
+        
         node.next = head;
         head = node;
 

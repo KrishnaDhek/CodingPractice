@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "MainLinkedList",
+            "request": "launch",
+            "mainClass": "MainLinkedList",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "RemoveElement",
             "request": "launch",
             "mainClass": "RemoveElement",
