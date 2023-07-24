@@ -72,4 +72,22 @@ public class CircularDoublyLinkedList {
             System.out.println("\n");
         }
     }
+
+    //reverse traversal in circular linked list
+    public void reverseTraversalOfCircularDoublyLinkedList(){
+        if(head==null){
+            System.out.println("CircularDoublyLinkedList does not exists!");
+        }
+        else{
+            DoublyNode temp = tail;
+            for(int i=0;i<size;i++){
+                System.out.print(temp.value);
+                if(i<size-1){
+                    System.out.print("<-");
+                }
+                temp = temp.previous;
+            }
+            System.out.println("\n");
+        }
+    }
 }
