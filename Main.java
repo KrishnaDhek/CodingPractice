@@ -62,6 +62,7 @@ public class Main {
     cdll.traveralCircularDoublyLinkedList();
     cdll.reverseTraversalOfCircularDoublyLinkedList();
     
+    System.out.println(cdll.searchInCircularDoublyLinkedList(30));
 
     
     

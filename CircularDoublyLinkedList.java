@@ -90,4 +90,17 @@ public class CircularDoublyLinkedList {
             System.out.println("\n");
         }
     }
+    //searching element from circulardoublylinkedlist
+    boolean searchInCircularDoublyLinkedList(int nodeValue){
+       DoublyNode temp = head;
+
+       while(temp.next!=head){
+        if(temp.value==nodeValue){
+            return true;
+       }
+       temp = temp.next;
+    }
+       return false;
+    }
+
 }
