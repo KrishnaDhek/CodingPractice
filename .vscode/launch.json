@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SumOfDigit",
+            "request": "launch",
+            "mainClass": "SumOfDigit",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "FibonacciSeries",
             "request": "launch",
             "mainClass": "FibonacciSeries",
