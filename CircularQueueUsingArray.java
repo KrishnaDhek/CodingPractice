@@ -81,6 +81,17 @@ public class CircularQueueUsingArray {
             }
 
         }
+        //peek method
+        public int peek(){
+            if(isEmpty()){
+                return -1;
+            }
+            else{
+                int val = arr[front];
+                System.out.println("value at front is "+val);
+                return val;
+            }
+        }
 
 }
 

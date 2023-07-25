@@ -21,8 +21,13 @@ public class MainQueue {
         cqueue.enQueue(2);
         cqueue.enQueue(3);
         cqueue.enQueue(4);
-        System.out.println("Deleted value is :"+cqueue.deleteQueue());   
-         System.out.println("Deleted value is :"+cqueue.deleteQueue());
+        cqueue.peek();
+        System.out.println("Deleted value is :"+cqueue.deleteQueue()); 
+        cqueue.peek();  
+        System.out.println("Deleted value is :"+cqueue.deleteQueue());
+        cqueue.peek();
+        System.out.println("Deleted value is :"+cqueue.deleteQueue());
+        cqueue.peek();
        
     }
     
