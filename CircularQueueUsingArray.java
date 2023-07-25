@@ -92,7 +92,11 @@ public class CircularQueueUsingArray {
                 return val;
             }
         }
-
+        //delete method
+        public void delete(){
+            arr = null;
+            System.out.println("Circular Queue is successsfully deleted!");
+        }
 }
 
     
