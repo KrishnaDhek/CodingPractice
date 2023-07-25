@@ -17,17 +17,21 @@ public class Main {
     // // sll.traversLinkedList();
     // // sll.deleteSinglyLinkedList();
     // sll.traversLinkedList();
-    StackUsingLinkedList s = new StackUsingLinkedList();
-    System.out.println(s.isEmpty());
-    s.Push(1);
-    s.Push(2);
-    s.Push(3);
-    s.Push(4);
-    System.out.println(s.isEmpty());
-    s.peek();
-    s.pop();
-    s.peek();
-    s.delete();
+    // StackUsingLinkedList s = new StackUsingLinkedList();
+    // System.out.println(s.isEmpty());
+    // s.Push(1);
+    // s.Push(2);
+    // s.Push(3);
+    // s.Push(4);
+    // System.out.println(s.isEmpty());
+    // s.peek();
+    // s.pop();
+    // s.peek();
+    // s.delete();
+   
+    QueueUsingLinkedList qList =new QueueUsingLinkedList();
+    System.out.println(qList.isEmpty());
+    
 
     // CircularLinkedList csll = new CircularLinkedList();
     // csll.createCircularSinglyLinkedList(1);
