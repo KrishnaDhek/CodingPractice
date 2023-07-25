@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainQueue",
+            "request": "launch",
+            "mainClass": "MainQueue",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "Mainstack",
             "request": "launch",
             "mainClass": "Mainstack",
