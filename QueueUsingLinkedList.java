@@ -35,6 +35,17 @@ public class QueueUsingLinkedList {
         }
         
     }
+    //peek queue
+    public int peek(){
+        if(isEmpty()){
+            System.out.println("Queue does not contain any element!");
+            return -1;
+        }
+        else{
+            int val = linkedList.head.value;
+            return val;
+        }
+    }
     //delete queue
 
     public void delete(){

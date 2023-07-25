@@ -36,6 +36,7 @@ public class Main {
     qList.enQueue(3);
     qList.enQueue(4);
     System.out.println(qList.isEmpty());
+    System.out.println("First element is :"+qList.peek());
     System.out.println("Deleted value is :"+qList.deQueue());
     qList.delete();
 
