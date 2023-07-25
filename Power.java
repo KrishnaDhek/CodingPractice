@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class Power {
 public static int Power(int num, int expo){
+    if(expo<0){
+        return -1;
+    }
     if(expo==0 ){
         return 1;
     }
