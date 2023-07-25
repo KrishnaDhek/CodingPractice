@@ -51,10 +51,37 @@ public class CircularQueueUsingArray {
                 rare++;
             }
             arr[rare]=value;
+            System.out.println("value inserted is :" +value);
         }
-        System.out.println("value inserted is :" +value);
+        
         
         }
+        //deQueue
+
+        public int deleteQueue(){
+            if(isEmpty()){
+                System.out.println("Circular queue is empty!");
+                return -1;
+            }
+            else{
+                int result = arr[front];
+                arr[front] =Integer.MIN_VALUE;
+                
+                if(front==rare){//if only one element predent  
+                    front=-1;
+                    rare=-1;
+                }
+                else if(front+1==size){
+                    front=0;
+                }
+                else{
+                    front++;
+                }
+                return result;
+            }
+
+        }
+
 }
 
     
