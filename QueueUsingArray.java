@@ -9,7 +9,7 @@ public class QueueUsingArray {
         this.arr = new int[size];
         this.front =-1;
         this.rare =-1;
-        System.out.println("Queue is create with size "+size+"and the value of front = "+front+" and rare  = "+rare);
+        System.out.println("Queue is create with size "+size+" and the value of front = "+front+" and rare  = "+rare);
     }
     //isFull
     public boolean isFull(){
@@ -38,7 +38,7 @@ public class QueueUsingArray {
             front=0;
             rare++;
             arr[rare]=value;
-            System.out.println("Value is "+value);
+            System.out.println("Value inserted is "+value);
         }
         else{
             rare++;
@@ -46,5 +46,40 @@ public class QueueUsingArray {
             System.out.println("Value inserted is "+value);
         }
 
-    }    
+    } 
+    //deQueue method
+
+    public int deQueue(){
+        if(isEmpty()){
+            System.out.println("Queue is empty nothing to delete");
+            return -1;
+        }
+        else{
+            int frontValue = arr[front];
+            front++;
+            if(front>rare){
+                front=-1;
+                rare =-1;
+            }
+            return frontValue;
+        }
+    }
+    //peek method
+
+    public int peek(){
+        if(!isEmpty()){
+             return arr[front];
+        }
+        System.out.println("Queue is empty!");
+        return -1;
+       
+    }
+    //deleteQueue
+
+    public void deleteQueue(){
+        arr = null;
+        System.out.println("Successfully deleted the queue!");
+    }
+
+   
 }
