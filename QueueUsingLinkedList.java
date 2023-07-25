@@ -20,4 +20,19 @@ public class QueueUsingLinkedList {
         linkedList.insertInLinkedList(value, linkedList.size);
         System.out.println("value inserted is :"+value);
     }
+
+    //deQueue
+
+    public int deQueue(){
+        if(isEmpty()){
+            System.out.println("Queue is empty");
+            return -1;
+        }
+        else{
+            int value = linkedList.head.value;
+            linkedList.deletionOfNode(0);
+            return value;
+        }
+        
+    }
 }
