@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Linked",
+            "request": "launch",
+            "mainClass": "Linked",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "ReverseLinkedList",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "List2",
+            "request": "launch",
+            "mainClass": "List2",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "MainList",
             "request": "launch",
             "mainClass": "MainList",
