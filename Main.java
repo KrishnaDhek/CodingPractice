@@ -37,6 +37,7 @@ public class Main {
     qList.enQueue(4);
     System.out.println(qList.isEmpty());
     System.out.println("Deleted value is :"+qList.deQueue());
+    qList.delete();
 
     
 

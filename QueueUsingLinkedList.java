@@ -35,4 +35,10 @@ public class QueueUsingLinkedList {
         }
         
     }
+    //delete queue
+
+    public void delete(){
+        linkedList.head =null;
+        System.out.println("Queue is deleted successfully");
+    }
 }
