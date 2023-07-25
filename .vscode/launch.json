@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Power",
+            "request": "launch",
+            "mainClass": "Power",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "SumOfDigit",
             "request": "launch",
             "mainClass": "SumOfDigit",
