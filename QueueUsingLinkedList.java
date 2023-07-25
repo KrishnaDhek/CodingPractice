@@ -13,5 +13,11 @@ public class QueueUsingLinkedList {
         }
         return false;
     }
-    
+   
+    //enQueue method
+
+    public void enQueue(int value){
+        linkedList.insertInLinkedList(value, linkedList.size);
+        System.out.println("value inserted is :"+value);
+    }
 }

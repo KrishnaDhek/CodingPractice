@@ -31,6 +31,12 @@ public class Main {
    
     QueueUsingLinkedList qList =new QueueUsingLinkedList();
     System.out.println(qList.isEmpty());
+    qList.enQueue(1);
+    qList.enQueue(2);
+    qList.enQueue(3);
+    qList.enQueue(4);
+    System.out.println(qList.isEmpty());
+
     
 
     // CircularLinkedList csll = new CircularLinkedList();
