@@ -42,7 +42,7 @@ class Linked {
     // Driver Code
     public static void main(String[] args)
     {
-        Linked list = new Linked();
+       Linked list = new Linked();
         list.head = new Node(85);
         list.head.next = new Node(15);
         list.head.next.next = new Node(4);
