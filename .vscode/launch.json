@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberOfGoodPair",
+            "request": "launch",
+            "mainClass": "NumberOfGoodPair",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "ReverseLinked",
+            "request": "launch",
+            "mainClass": "ReverseLinked",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "Linked",
             "request": "launch",
             "mainClass": "Linked",
