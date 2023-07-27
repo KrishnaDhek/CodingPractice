@@ -1,4 +1,3 @@
-package LinkedList;
 public class MainList {
     public static void main(String[] args) {
         List list = new List();
