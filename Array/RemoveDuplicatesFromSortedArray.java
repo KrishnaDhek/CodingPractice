@@ -1,3 +1,4 @@
+package Array;
 public class RemoveDuplicatesFromSortedArray {
     public static int RemoveDuplicatesFromSortedArray(int[] arr, int n){
         int ans=0;
