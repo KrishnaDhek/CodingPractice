@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaxNoOfCandies",
+            "request": "launch",
+            "mainClass": "Array.MaxNoOfCandies",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "MoveZeroToLast",
             "request": "launch",
             "mainClass": "Array.MoveZeroToLast",
