@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindTargetIndices",
+            "request": "launch",
+            "mainClass": "Array.FindTargetIndices",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "CountNumberOfPairsWithAbsoluteDifferenceK",
             "request": "launch",
             "mainClass": "Array.CountNumberOfPairsWithAbsoluteDifferenceK",
