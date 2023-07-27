@@ -1,3 +1,4 @@
+package Array;
 import java.util.*;
 public class AverageTemperature {
     public static void main(String[] args) {
