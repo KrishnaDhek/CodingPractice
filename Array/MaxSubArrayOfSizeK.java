@@ -1,3 +1,4 @@
+package Array;
 public class MaxSubArrayOfSizeK {
     public static int MaxSubArrayOfSizeK(int[] arr, int k){
 
