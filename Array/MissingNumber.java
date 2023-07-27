@@ -1,3 +1,4 @@
+package Array;
 public class MissingNumber {
     public static int MissingNumber(int[] arr){
         int ans =0;
