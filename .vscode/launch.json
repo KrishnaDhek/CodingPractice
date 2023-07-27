@@ -8,6 +8,13 @@
             "type": "java",
             "name": "FinalValueOfVariable",
             "request": "launch",
+            "mainClass": "Array.FinalValueOfVariable",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "FinalValueOfVariable",
+            "request": "launch",
             "mainClass": "FinalValueOfVariable",
             "projectName": "CodingPractice_577ffda0"
         },

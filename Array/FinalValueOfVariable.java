@@ -1,7 +1,8 @@
+package Array;
 public class FinalValueOfVariable {
-    public static int FinalValueOfVariable(String[] operations){
+    public static int FinalValueOfVariable(String[] operation){
         int count =0;
-        for(String s : operations){
+        for(String s : operation){
             if(s.equals("++X")||s.equals("X++")){
                 count+=1;
             }
@@ -13,8 +14,8 @@ public class FinalValueOfVariable {
 
     }
     public static void main(String[] args) {
-        String[] operations = {"++X","X--","X++","X--","X++","X++","X--"};
-        int result = FinalValueOfVariable(operations);
+        String[] operation = {"++X","X--","X++","X--","X++","X++","X--"};
+        int result = FinalValueOfVariable(operation);
         System.out.println("The final value of variable after performing operation is : "+result);
     }
     
