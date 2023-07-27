@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountNumberOfPairsWithAbsoluteDifferenceK",
+            "request": "launch",
+            "mainClass": "Array.CountNumberOfPairsWithAbsoluteDifferenceK",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
+            "name": "MaximumSum",
+            "request": "launch",
+            "mainClass": "Array.MaximumSum",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "MainList",
             "request": "launch",
             "mainClass": "LinkedList.MainList",
