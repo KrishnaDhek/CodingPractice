@@ -1,3 +1,4 @@
+package Array;
 public class NumberOf1Bits{
     public static void main(String[] args) {
         long num =00000000000000000000000000001011;
