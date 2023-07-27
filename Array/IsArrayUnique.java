@@ -1,3 +1,4 @@
+package Array;
 public class IsArrayUnique {
     public static boolean IsArrayUnique(int[] nums){
         int ans =0;
