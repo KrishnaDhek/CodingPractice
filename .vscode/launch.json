@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MoveZeroToLast",
+            "request": "launch",
+            "mainClass": "Array.MoveZeroToLast",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "FindTargetIndices",
             "request": "launch",
             "mainClass": "Array.FindTargetIndices",
