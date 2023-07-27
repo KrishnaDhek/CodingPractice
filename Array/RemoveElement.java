@@ -1,3 +1,4 @@
+package Array;
 public class RemoveElement {
     public static int RemoveElement(int[] nums, int val){
         int i=0;
@@ -13,8 +14,8 @@ public class RemoveElement {
 
     }
     public static void main(String[] args) {
-        int[] nums = {3,2,2,5,4,5,6,5,4};
-        int val =4;
+        int[] nums = {0,1,2,2,3,0,4,2};
+        int val =2;
         System.out.println(RemoveElement(nums, val));
     }
     
