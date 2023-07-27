@@ -1,3 +1,4 @@
+package Array;
 public class BestScore {
     public static int[] TwoBest(int[] arr){
         int max =Integer.MIN_VALUE;
