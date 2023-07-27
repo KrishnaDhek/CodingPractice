@@ -1,3 +1,4 @@
+package Array;
 public class DiagonalSum {
     public static int printSum(int[][] array){
         int sum =0;
