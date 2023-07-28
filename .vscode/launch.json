@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainQueue",
+            "request": "launch",
+            "mainClass": "Array.MainQueue",
+            "projectName": "CodingPractice_577ffda0"
+        },
+        {
+            "type": "java",
             "name": "MaxNoOfCandies",
             "request": "launch",
             "mainClass": "Array.MaxNoOfCandies",
